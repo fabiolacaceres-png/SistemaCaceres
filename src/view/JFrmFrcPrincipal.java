@@ -79,7 +79,7 @@ public class JFrmFrcPrincipal extends javax.swing.JFrame {
         jMenu1.add(jMnuClientes);
 
         jMnuFornecedores.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMnuFornecedores.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Fornecedor.png"))); // NOI18N
+        jMnuFornecedores.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/WhatsApp Image 2026-04-15 at 16.17.25.jpg"))); // NOI18N
         jMnuFornecedores.setText("Fornecedor");
         jMnuFornecedores.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
