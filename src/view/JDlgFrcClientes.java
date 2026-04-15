@@ -12,7 +12,6 @@ import javax.swing.JOptionPane;
  * @author u10568413113
  */
 public class JDlgFrcClientes extends javax.swing.JDialog {
-//f
     /**
      * Creates new form JDlgFrcClientes
      */

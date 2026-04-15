@@ -8,7 +8,7 @@ package view;
  * @author u10568413113
  */
 public class JFrmFrcPrincipal extends javax.swing.JFrame {
-
+//f
     /**
      * Creates new form JFrmFrcPrincipal
      */
