@@ -14,6 +14,8 @@ public class JDlgFrcUsuarios extends javax.swing.JDialog {
 
     /**
      * Creates new form JDlgFrcUsuarios
+     * @param parent
+     * @param modal
      */
     public JDlgFrcUsuarios(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
