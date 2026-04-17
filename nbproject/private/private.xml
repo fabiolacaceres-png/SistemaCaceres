@@ -3,9 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/NetBeansProjects/SistemaCaceres/src/view/JDlgFrcUsuarios.java</file>
-            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/NetBeansProjects/SistemaCaceres/src/view/JFrmFrcPrincipal.java</file>
-            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/NetBeansProjects/SistemaCaceres/src/view/JDlgFrcClientes.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/view/JFrmFrcPrincipal.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/view/JDlgFrcProdutos.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/view/JDlgFrcUsuarios.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/view/JDlgFrcVendedor.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/view/JDlgFrcClientes.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/view/JDlgFrcFornecedor.java</file>
         </group>
     </open-files>
 </project-private>
