@@ -184,7 +184,7 @@ public class JDlgFrcProdutos extends javax.swing.JDialog {
                             .addComponent(jLabel7)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jTxtCor, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jFmtPreco, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addComponent(jLabel9)
                     .addComponent(jTxtTextura, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
