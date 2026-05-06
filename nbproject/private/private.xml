@@ -9,6 +9,11 @@
             <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/view/JDlgFrcVendedor.java</file>
             <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/view/JDlgFrcClientes.java</file>
             <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/view/JDlgFrcFornecedor.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/bean/FrcUsuarios.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/dao/DaoAbstract.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/dao/DaoFrcUsuarios.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/testes/JdbcSelect.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/testes/JdbcCrud.java</file>
         </group>
     </open-files>
 </project-private>
