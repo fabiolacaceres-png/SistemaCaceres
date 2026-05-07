@@ -102,16 +102,18 @@ public class JDlgFrcLogin extends javax.swing.JDialog {
     private void jButtonEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEntrarActionPerformed
         // TODO add your handling code here:
          // TODO add your handling code here:
+        String usuarioDigitado = jTxtUsuario.getText();
+        String senhaDigitada = jTxtSenha.getText();
         String usuarioCorreto = "fabiolacaceres";
         String senhaCorreta = "0123456789";
         
-        if(usuarioCorreto.equalsIgnoreCase(usuarioCorreto) && senhaCorreta.equalsIgnoreCase(senhaCorreta)){
+        if (usuarioDigitado.equalsIgnoreCase(usuarioCorreto) && senhaDigitada.equals(senhaCorreta)) {
             JFrmFrcPrincipal jFrmFrcPrincipal = new JFrmFrcPrincipal();
-            jFrmFrcPrincipal.setVisible(true);
-            this.dispose();
-        }else{
-            JOptionPane.showMessageDialog(null, "Email ou senha incorretos.", "Erro de Autenticação", JOptionPane.ERROR_MESSAGE);
-        }         
+        jFrmFrcPrincipal.setVisible(true);
+        this.dispose();
+    }   else {
+            JOptionPane.showMessageDialog(null, "Usuário ou senha incorretos.", "Erro de Autenticação", JOptionPane.ERROR_MESSAGE);
+    }               
     }//GEN-LAST:event_jButtonEntrarActionPerformed
 
     /**
