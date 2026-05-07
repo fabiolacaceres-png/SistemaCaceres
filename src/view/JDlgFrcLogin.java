@@ -101,7 +101,6 @@ public class JDlgFrcLogin extends javax.swing.JDialog {
 
     private void jButtonEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEntrarActionPerformed
         // TODO add your handling code here:
-         // TODO add your handling code here:
         String usuarioDigitado = jTxtUsuario.getText();
         String senhaDigitada = jTxtSenha.getText();
         String usuarioCorreto = "fabiolacaceres";

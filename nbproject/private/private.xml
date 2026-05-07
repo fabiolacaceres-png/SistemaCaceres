@@ -14,6 +14,12 @@
             <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/dao/DaoFrcUsuarios.java</file>
             <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/testes/JdbcSelect.java</file>
             <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/testes/JdbcCrud.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/dao/DaoFrcFornecedores.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/dao/DaoFrcComprasProduto.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/dao/DaoFrcCompras.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/bean/FrcCompras.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/view/JDlgFrcLogin.java</file>
+            <file>file:/C:/Users/BRUNA%20CACERES/OneDrive/Documentos/SistemaCaceres-main/src/bean/FrcClientes.java</file>
         </group>
     </open-files>
 </project-private>
