@@ -14,7 +14,7 @@ public class FrcClientes {
     private int frc_idClientes;
     private String frc_nome;
     private String frc_cpf;
-    private Date frc_dataNacsimento;
+    private Date frc_dataNascimento;
     private String frc_email;
     private String frc_telefone;
     private String frc_cep;
@@ -46,10 +46,10 @@ public class FrcClientes {
         this.frc_cpf = frc_cpf;
     }
     public Date getFrcDataNacsimento(){
-        return frc_dataNacsimento;
+        return frc_dataNascimento;
     }
     public void setFrcDataNacsimento(Date frc_dataNacsimento){
-        this.frc_dataNacsimento = frc_dataNacsimento;
+        this.frc_dataNascimento = frc_dataNacsimento;
     }
     public String getFrcEmail(){
         return frc_email;

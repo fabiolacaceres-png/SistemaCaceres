@@ -8,6 +8,10 @@ package dao;
  *
  * @author FABÍOLA CÁCERES
  */
-public class DaoAbstract {
-    
+public abstract class DaoAbstract {
+    public abstract void insert(Object object);
+    public abstract void update(Object object);
+    public abstract void delete(Object object);
+    public abstract Object list(int id);
+    public abstract Object listAll();
 }

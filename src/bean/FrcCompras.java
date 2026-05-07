@@ -13,8 +13,8 @@ import java.util.Date;
 public class FrcCompras {
     private int frc_idCompras;
     private Date frc_dataCompra;
-    private String frc_fornecedores;
-    private String frc_usuarios;
+    private int frc_fornecedores;
+    private int frc_usuarios;
     private String frc_formaPagamento;
     private double frc_frete;
     private double frc_total;
@@ -33,17 +33,17 @@ public class FrcCompras {
         this.frc_dataCompra = frc_dataCompra;
     }
 
-    public String getFrcfornecedores(){
+    public int getFrcfornecedores(){
         return frc_fornecedores;
     }
-    public void setFrcfornecedores(String frc_fornecedores){
+    public void setFrcfornecedores(int frc_fornecedores){
         this.frc_fornecedores = frc_fornecedores;
     }
 
-    public String getFrcusuarios(){
+    public int getFrcusuarios(){
         return frc_usuarios;
     }
-    public void setFrcusuarios(String frc_usuarios){
+    public void setFrcusuarios(int frc_usuarios){
         this.frc_usuarios = frc_usuarios;
     }
 

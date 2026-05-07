@@ -15,7 +15,7 @@ public class FrcUsuarios {
     private String frc_nome;
     private String frc_apelido;
     private String frc_cpf;
-    private Date frc_dataNacsimento;
+    private Date frc_dataNascimento;
     private int frc_nivel;
     private String frc_senha;
     private String frc_ativo;
@@ -49,10 +49,10 @@ public class FrcUsuarios {
     }
 
     public Date getFrcDataNacsimento(){
-        return frc_dataNacsimento;
+        return frc_dataNascimento;
     }
     public void setFrcDataNacsimento(Date frc_dataNacsimento){
-        this.frc_dataNacsimento = frc_dataNacsimento;
+        this.frc_dataNascimento = frc_dataNacsimento;
     }
 
     public int getFrcNivel(){
