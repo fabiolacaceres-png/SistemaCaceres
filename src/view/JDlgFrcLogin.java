@@ -103,7 +103,7 @@ public class JDlgFrcLogin extends javax.swing.JDialog {
         // TODO add your handling code here:
         String usuarioDigitado = jTxtUsuario.getText();
         String senhaDigitada = jTxtSenha.getText();
-        String usuarioCorreto = "fabiolacaceres";
+        String usuarioCorreto = "Caceres";
         String senhaCorreta = "0123456789";
         
         if (usuarioDigitado.equalsIgnoreCase(usuarioCorreto) && senhaDigitada.equals(senhaCorreta)) {
