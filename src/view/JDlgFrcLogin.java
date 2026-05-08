@@ -36,9 +36,9 @@ public class JDlgFrcLogin extends javax.swing.JDialog {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jTxtUsuario = new javax.swing.JTextField();
-        jTxtSenha = new javax.swing.JTextField();
-        jButtonEntrar = new javax.swing.JButton();
+        jTxtFrcUsuario = new javax.swing.JTextField();
+        jTxtFrcSenha = new javax.swing.JTextField();
+        jButtonFrcEntrar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -48,10 +48,10 @@ public class JDlgFrcLogin extends javax.swing.JDialog {
 
         jLabel3.setText("Senha");
 
-        jTxtUsuario.addActionListener(this::jTxtUsuarioActionPerformed);
+        jTxtFrcUsuario.addActionListener(this::jTxtFrcUsuarioActionPerformed);
 
-        jButtonEntrar.setText("Entrar");
-        jButtonEntrar.addActionListener(this::jButtonEntrarActionPerformed);
+        jButtonFrcEntrar.setText("Entrar");
+        jButtonFrcEntrar.addActionListener(this::jButtonFrcEntrarActionPerformed);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -66,12 +66,12 @@ public class JDlgFrcLogin extends javax.swing.JDialog {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jTxtUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, 310, Short.MAX_VALUE)
-                    .addComponent(jTxtSenha))
+                    .addComponent(jTxtFrcUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, 310, Short.MAX_VALUE)
+                    .addComponent(jTxtFrcSenha))
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(305, Short.MAX_VALUE)
-                .addComponent(jButtonEntrar)
+                .addComponent(jButtonFrcEntrar)
                 .addGap(23, 23, 23))
         );
         layout.setVerticalGroup(
@@ -82,27 +82,27 @@ public class JDlgFrcLogin extends javax.swing.JDialog {
                 .addGap(37, 37, 37)
                 .addComponent(jLabel2)
                 .addGap(5, 5, 5)
-                .addComponent(jTxtUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTxtFrcUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTxtSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTxtFrcSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 60, Short.MAX_VALUE)
-                .addComponent(jButtonEntrar)
+                .addComponent(jButtonFrcEntrar)
                 .addGap(36, 36, 36))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTxtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtUsuarioActionPerformed
+    private void jTxtFrcUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtFrcUsuarioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTxtUsuarioActionPerformed
+    }//GEN-LAST:event_jTxtFrcUsuarioActionPerformed
 
-    private void jButtonEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEntrarActionPerformed
+    private void jButtonFrcEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonFrcEntrarActionPerformed
         // TODO add your handling code here:
-        String usuarioDigitado = jTxtUsuario.getText();
-        String senhaDigitada = jTxtSenha.getText();
+        String usuarioDigitado = jTxtFrcUsuario.getText();
+        String senhaDigitada = jTxtFrcSenha.getText();
         String usuarioCorreto = "Caceres";
         String senhaCorreta = "0123456789";
         
@@ -113,7 +113,7 @@ public class JDlgFrcLogin extends javax.swing.JDialog {
     }   else {
             JOptionPane.showMessageDialog(null, "Usuário ou senha incorretos.", "Erro de Autenticação", JOptionPane.ERROR_MESSAGE);
     }               
-    }//GEN-LAST:event_jButtonEntrarActionPerformed
+    }//GEN-LAST:event_jButtonFrcEntrarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -153,11 +153,11 @@ public class JDlgFrcLogin extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonEntrar;
+    private javax.swing.JButton jButtonFrcEntrar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JTextField jTxtSenha;
-    private javax.swing.JTextField jTxtUsuario;
+    private javax.swing.JTextField jTxtFrcSenha;
+    private javax.swing.JTextField jTxtFrcUsuario;
     // End of variables declaration//GEN-END:variables
 }

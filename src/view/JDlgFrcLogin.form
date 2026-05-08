@@ -34,14 +34,14 @@
           </Group>
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jTxtUsuario" pref="310" max="32767" attributes="0"/>
-                  <Component id="jTxtSenha" max="32767" attributes="0"/>
+                  <Component id="jTxtFrcUsuario" pref="310" max="32767" attributes="0"/>
+                  <Component id="jTxtFrcSenha" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace pref="305" max="32767" attributes="0"/>
-              <Component id="jButtonEntrar" min="-2" max="-2" attributes="0"/>
+              <Component id="jButtonFrcEntrar" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -54,13 +54,13 @@
               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-              <Component id="jTxtUsuario" min="-2" max="-2" attributes="0"/>
+              <Component id="jTxtFrcUsuario" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jTxtSenha" min="-2" max="-2" attributes="0"/>
+              <Component id="jTxtFrcSenha" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="60" max="32767" attributes="0"/>
-              <Component id="jButtonEntrar" min="-2" max="-2" attributes="0"/>
+              <Component id="jButtonFrcEntrar" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -82,19 +82,19 @@
         <Property name="text" type="java.lang.String" value="Senha"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtUsuario">
+    <Component class="javax.swing.JTextField" name="jTxtFrcUsuario">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtUsuarioActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtFrcUsuarioActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtSenha">
+    <Component class="javax.swing.JTextField" name="jTxtFrcSenha">
     </Component>
-    <Component class="javax.swing.JButton" name="jButtonEntrar">
+    <Component class="javax.swing.JButton" name="jButtonFrcEntrar">
       <Properties>
         <Property name="text" type="java.lang.String" value="Entrar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonEntrarActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonFrcEntrarActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

@@ -17,34 +17,34 @@ public class JDlgFrcProdutos extends javax.swing.JDialog {
         initComponents();
         setTitle("Cadastro de Produtos");
         setLocationRelativeTo(null);
-        jTxtCodigo.setEnabled(false);
-        jTxtNome.setEnabled(false);
-        jTxtMarca.setEnabled(false);
-        jTxtCategoria.setEnabled(false);
-        jTxtCor.setEnabled(false);
-        jFmtPreco.setEnabled(false);
-        jTxtTextura.setEnabled(false);
-        jBtnConfirmar.setEnabled(false);
-        jBtnCancelar.setEnabled(false);
+        jTxtFrcCodigo.setEnabled(false);
+        jTxtFrcNome.setEnabled(false);
+        jTxtFrcMarca.setEnabled(false);
+        jTxtFrcCategoria.setEnabled(false);
+        jTxtFrcCor.setEnabled(false);
+        jFmtFrcPreco.setEnabled(false);
+        jTxtFrcTextura.setEnabled(false);
+        jBtnFrcConfirmar.setEnabled(false);
+        jBtnFrcCancelar.setEnabled(false);
         
     }
       public void habilitar(){
           
-        jTxtCodigo.setEnabled(true);
-        jTxtNome.setEnabled(true);
-        jTxtMarca.setEnabled(true);
-        jTxtCategoria.setEnabled(true);
-        jTxtCor.setEnabled(true);
-        jFmtPreco.setEnabled(true);
-        jTxtTextura.setEnabled(true);
-        jBtnConfirmar.setEnabled(true);
-        jBtnCancelar.setEnabled(true);
+        jTxtFrcCodigo.setEnabled(true);
+        jTxtFrcNome.setEnabled(true);
+        jTxtFrcMarca.setEnabled(true);
+        jTxtFrcCategoria.setEnabled(true);
+        jTxtFrcCor.setEnabled(true);
+        jFmtFrcPreco.setEnabled(true);
+        jTxtFrcTextura.setEnabled(true);
+        jBtnFrcConfirmar.setEnabled(true);
+        jBtnFrcCancelar.setEnabled(true);
         
         
-         jBtnIncluir.setEnabled(false);
-         jBtnAlterar.setEnabled(false);
-         jBtnExcluir.setEnabled(false);
-         jBtnPesquisar.setEnabled(false);
+         jBtnFrcIncluir.setEnabled(false);
+         jBtnFrcAlterar.setEnabled(false);
+         jBtnFrcExcluir.setEnabled(false);
+         jBtnFrcPesquisar.setEnabled(false);
          
          
          
@@ -54,21 +54,21 @@ public class JDlgFrcProdutos extends javax.swing.JDialog {
     
     public void desabilitar(){
         
-        jTxtCodigo.setEnabled(false);
-        jTxtNome.setEnabled(false);
-        jTxtMarca.setEnabled(false);
-        jTxtCategoria.setEnabled(false);
-        jTxtCor.setEnabled(false);
-        jFmtPreco.setEnabled(false);
-        jTxtTextura.setEnabled(false);
-        jBtnConfirmar.setEnabled(false);
-        jBtnCancelar.setEnabled(false);
+        jTxtFrcCodigo.setEnabled(false);
+        jTxtFrcNome.setEnabled(false);
+        jTxtFrcMarca.setEnabled(false);
+        jTxtFrcCategoria.setEnabled(false);
+        jTxtFrcCor.setEnabled(false);
+        jFmtFrcPreco.setEnabled(false);
+        jTxtFrcTextura.setEnabled(false);
+        jBtnFrcConfirmar.setEnabled(false);
+        jBtnFrcCancelar.setEnabled(false);
          
         
-         jBtnIncluir.setEnabled(true);
-         jBtnAlterar.setEnabled(true);
-         jBtnExcluir.setEnabled(true);
-         jBtnPesquisar.setEnabled(true);
+         jBtnFrcIncluir.setEnabled(true);
+         jBtnFrcAlterar.setEnabled(true);
+         jBtnFrcExcluir.setEnabled(true);
+         jBtnFrcPesquisar.setEnabled(true);
          
     }
 
@@ -84,26 +84,26 @@ public class JDlgFrcProdutos extends javax.swing.JDialog {
 
         jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jTxtCodigo = new javax.swing.JTextField();
+        jTxtFrcCodigo = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        jTxtNome = new javax.swing.JTextField();
+        jTxtFrcNome = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        jTxtMarca = new javax.swing.JTextField();
+        jTxtFrcMarca = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
-        jTxtCategoria = new javax.swing.JTextField();
+        jTxtFrcCategoria = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
-        jTxtCor = new javax.swing.JTextField();
+        jTxtFrcCor = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
-        jTxtTextura = new javax.swing.JTextField();
-        jFmtPreco = new javax.swing.JFormattedTextField();
+        jTxtFrcTextura = new javax.swing.JTextField();
+        jFmtFrcPreco = new javax.swing.JFormattedTextField();
         jLabel9 = new javax.swing.JLabel();
-        jBtnCancelar = new javax.swing.JButton();
-        jBtnPesquisar = new javax.swing.JButton();
-        jBtnIncluir = new javax.swing.JButton();
-        jBtnAlterar = new javax.swing.JButton();
-        jBtnExcluir = new javax.swing.JButton();
-        jBtnConfirmar = new javax.swing.JButton();
+        jBtnFrcCancelar = new javax.swing.JButton();
+        jBtnFrcPesquisar = new javax.swing.JButton();
+        jBtnFrcIncluir = new javax.swing.JButton();
+        jBtnFrcAlterar = new javax.swing.JButton();
+        jBtnFrcExcluir = new javax.swing.JButton();
+        jBtnFrcConfirmar = new javax.swing.JButton();
 
         jLabel3.setText("jLabel3");
 
@@ -115,7 +115,7 @@ public class JDlgFrcProdutos extends javax.swing.JDialog {
 
         jLabel5.setText("Marca");
 
-        jTxtMarca.addActionListener(this::jTxtMarcaActionPerformed);
+        jTxtFrcMarca.addActionListener(this::jTxtFrcMarcaActionPerformed);
 
         jLabel6.setText("Categoria");
 
@@ -125,158 +125,166 @@ public class JDlgFrcProdutos extends javax.swing.JDialog {
 
         jLabel9.setText("Textura");
 
-        jBtnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
-        jBtnCancelar.setText("Cancelar");
-        jBtnCancelar.addActionListener(this::jBtnCancelarActionPerformed);
+        jBtnFrcCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
+        jBtnFrcCancelar.setText("Cancelar");
+        jBtnFrcCancelar.addActionListener(this::jBtnFrcCancelarActionPerformed);
 
-        jBtnPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
-        jBtnPesquisar.setText("Pesquisar");
-        jBtnPesquisar.addActionListener(this::jBtnPesquisarActionPerformed);
+        jBtnFrcPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
+        jBtnFrcPesquisar.setText("Pesquisar");
+        jBtnFrcPesquisar.addActionListener(this::jBtnFrcPesquisarActionPerformed);
 
-        jBtnIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
-        jBtnIncluir.setText("Incluir");
-        jBtnIncluir.addActionListener(this::jBtnIncluirActionPerformed);
+        jBtnFrcIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
+        jBtnFrcIncluir.setText("Incluir");
+        jBtnFrcIncluir.addActionListener(this::jBtnFrcIncluirActionPerformed);
 
-        jBtnAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
-        jBtnAlterar.setText("Alterar");
-        jBtnAlterar.addActionListener(this::jBtnAlterarActionPerformed);
+        jBtnFrcAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
+        jBtnFrcAlterar.setText("Alterar");
+        jBtnFrcAlterar.addActionListener(this::jBtnFrcAlterarActionPerformed);
 
-        jBtnExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
-        jBtnExcluir.setText("Excluir");
-        jBtnExcluir.addActionListener(this::jBtnExcluirActionPerformed);
+        jBtnFrcExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
+        jBtnFrcExcluir.setText("Excluir");
+        jBtnFrcExcluir.addActionListener(this::jBtnFrcExcluirActionPerformed);
 
-        jBtnConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/confirmar.png"))); // NOI18N
-        jBtnConfirmar.setText("Confirmar");
-        jBtnConfirmar.addActionListener(this::jBtnConfirmarActionPerformed);
+        jBtnFrcConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/confirmar.png"))); // NOI18N
+        jBtnFrcConfirmar.setText("Confirmar");
+        jBtnFrcConfirmar.addActionListener(this::jBtnFrcConfirmarActionPerformed);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
-                    .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(1, 1, 1)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addGap(122, 122, 122)
-                        .addComponent(jLabel5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel4)
-                        .addGap(125, 125, 125))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel8)
-                            .addComponent(jTxtNome, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTxtMarca, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel6)
-                            .addComponent(jTxtCategoria, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(1, 1, 1)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTxtCor, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jFmtPreco, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addComponent(jLabel9)
-                    .addComponent(jTxtTextura, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jBtnIncluir)
+                .addComponent(jBtnFrcIncluir)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jBtnAlterar)
+                .addComponent(jBtnFrcAlterar)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jBtnExcluir)
+                .addComponent(jBtnFrcExcluir)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jBtnConfirmar, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jBtnFrcConfirmar, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jBtnCancelar)
+                .addComponent(jBtnFrcCancelar)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jBtnPesquisar))
+                .addComponent(jBtnFrcPesquisar))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel7)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel1)
+                            .addComponent(jTxtFrcCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTxtFrcCor, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel2)
+                                        .addGap(112, 112, 112)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(jTxtFrcMarca, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                .addComponent(jTxtFrcCategoria, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(jLabel5)
+                                                .addGap(144, 144, 144)
+                                                .addComponent(jLabel6)
+                                                .addGap(88, 88, 88))))
+                                    .addComponent(jTxtFrcNome, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel8)
+                                            .addComponent(jFmtFrcPreco, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(43, 43, 43)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel9)
+                                            .addComponent(jTxtFrcTextura, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))))))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel5))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(8, 8, 8)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel6)))
+                    .addComponent(jLabel4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTxtNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTxtMarca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(jLabel7)
-                    .addComponent(jLabel8))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTxtCategoria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTxtCor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jFmtPreco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTxtFrcCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jTxtFrcNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jTxtFrcMarca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTxtFrcCategoria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(jLabel9)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTxtTextura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 70, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel7)
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jTxtFrcCor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jFmtFrcPreco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel9)
+                            .addComponent(jLabel8))
+                        .addGap(18, 18, 18)
+                        .addComponent(jTxtFrcTextura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 59, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jBtnIncluir)
-                    .addComponent(jBtnAlterar)
-                    .addComponent(jBtnExcluir)
-                    .addComponent(jBtnConfirmar)
-                    .addComponent(jBtnCancelar)
-                    .addComponent(jBtnPesquisar))
+                    .addComponent(jBtnFrcIncluir)
+                    .addComponent(jBtnFrcAlterar)
+                    .addComponent(jBtnFrcExcluir)
+                    .addComponent(jBtnFrcConfirmar)
+                    .addComponent(jBtnFrcCancelar)
+                    .addComponent(jBtnFrcPesquisar))
                 .addGap(35, 35, 35))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTxtMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtMarcaActionPerformed
+    private void jTxtFrcMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtFrcMarcaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTxtMarcaActionPerformed
+    }//GEN-LAST:event_jTxtFrcMarcaActionPerformed
 
-    private void jBtnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCancelarActionPerformed
+    private void jBtnFrcCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnFrcCancelarActionPerformed
         // TODO add your handling code here:
         desabilitar();
-    }//GEN-LAST:event_jBtnCancelarActionPerformed
+    }//GEN-LAST:event_jBtnFrcCancelarActionPerformed
 
-    private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
+    private void jBtnFrcPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnFrcPesquisarActionPerformed
         // TODO add your handling code here:
         JOptionPane.showInputDialog(null, "Entre com a chave primária");
-    }//GEN-LAST:event_jBtnPesquisarActionPerformed
+    }//GEN-LAST:event_jBtnFrcPesquisarActionPerformed
 
-    private void jBtnIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnIncluirActionPerformed
+    private void jBtnFrcIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnFrcIncluirActionPerformed
         // TODO add your handling code here:
         habilitar();
-    }//GEN-LAST:event_jBtnIncluirActionPerformed
+    }//GEN-LAST:event_jBtnFrcIncluirActionPerformed
 
-    private void jBtnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnAlterarActionPerformed
+    private void jBtnFrcAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnFrcAlterarActionPerformed
         // TODO add your handling code here:
         habilitar();
-    }//GEN-LAST:event_jBtnAlterarActionPerformed
+    }//GEN-LAST:event_jBtnFrcAlterarActionPerformed
 
-    private void jBtnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnExcluirActionPerformed
+    private void jBtnFrcExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnFrcExcluirActionPerformed
         // TODO add your handling code here:
         JOptionPane.showConfirmDialog(null, "Confirma a exclusão", "Selecione uma opção", JOptionPane.YES_NO_OPTION);
-    }//GEN-LAST:event_jBtnExcluirActionPerformed
+    }//GEN-LAST:event_jBtnFrcExcluirActionPerformed
 
-    private void jBtnConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnConfirmarActionPerformed
+    private void jBtnFrcConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnFrcConfirmarActionPerformed
         // TODO add your handling code here:
         desabilitar();
-    }//GEN-LAST:event_jBtnConfirmarActionPerformed
+    }//GEN-LAST:event_jBtnFrcConfirmarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -304,13 +312,13 @@ public class JDlgFrcProdutos extends javax.swing.JDialog {
             }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jBtnAlterar;
-    private javax.swing.JButton jBtnCancelar;
-    private javax.swing.JButton jBtnConfirmar;
-    private javax.swing.JButton jBtnExcluir;
-    private javax.swing.JButton jBtnIncluir;
-    private javax.swing.JButton jBtnPesquisar;
-    private javax.swing.JFormattedTextField jFmtPreco;
+    private javax.swing.JButton jBtnFrcAlterar;
+    private javax.swing.JButton jBtnFrcCancelar;
+    private javax.swing.JButton jBtnFrcConfirmar;
+    private javax.swing.JButton jBtnFrcExcluir;
+    private javax.swing.JButton jBtnFrcIncluir;
+    private javax.swing.JButton jBtnFrcPesquisar;
+    private javax.swing.JFormattedTextField jFmtFrcPreco;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -320,11 +328,11 @@ public class JDlgFrcProdutos extends javax.swing.JDialog {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JTextField jTxtCategoria;
-    private javax.swing.JTextField jTxtCodigo;
-    private javax.swing.JTextField jTxtCor;
-    private javax.swing.JTextField jTxtMarca;
-    private javax.swing.JTextField jTxtNome;
-    private javax.swing.JTextField jTxtTextura;
+    private javax.swing.JTextField jTxtFrcCategoria;
+    private javax.swing.JTextField jTxtFrcCodigo;
+    private javax.swing.JTextField jTxtFrcCor;
+    private javax.swing.JTextField jTxtFrcMarca;
+    private javax.swing.JTextField jTxtFrcNome;
+    private javax.swing.JTextField jTxtFrcTextura;
     // End of variables declaration//GEN-END:variables
 }
