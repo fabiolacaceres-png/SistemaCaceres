@@ -44,7 +44,7 @@ import testes.JdbcSelect;
     pst.setString(11, frcFornecedores.getFrcEstado());
     pst.setString(12, frcFornecedores.getFrcNumero());
     pst.setString(13, frcFornecedores.getFrcContatoResponsavel());
-    pst.setDate(14, null);  
+    pst.setDate(14, null);//frc_dataCadastro
     pst.setString(15, frcFornecedores.getFrcAtivo());
     pst.executeUpdate();
             

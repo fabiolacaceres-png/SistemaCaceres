@@ -34,7 +34,7 @@ public class DaoFrcVendedor extends DaoAbstract {
     pst.setString(3, frcVendedor.getFrcCpf());
     pst.setString(4, frcVendedor.getFrcTelefone());
     pst.setString(5, frcVendedor.getFrcEmail());
-    pst.setDate(6, null);
+    pst.setDate(6, null);//frc_dataAdmissao
     pst.setDouble(7, frcVendedor.getFrcSalario());
     pst.setDouble(8, frcVendedor.getFrcComissao());
             

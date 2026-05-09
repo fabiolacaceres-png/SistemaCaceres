@@ -32,7 +32,7 @@ public class DaoFrcClientes extends DaoAbstract {
    pst.setInt(1, frcClientes.getFrcIdClientes());
    pst.setString(2, frcClientes.getFrcNome());
    pst.setString(3, frcClientes.getFrcCpf());
-   pst.setDate(4, null);
+   pst.setDate(4, null);//frc_dataNascimento
    pst.setString(5, frcClientes.getFrcEmail());
    pst.setString(6, frcClientes.getFrcTelefone());
    pst.setString(7, frcClientes.getFrcCep());
@@ -42,7 +42,7 @@ public class DaoFrcClientes extends DaoAbstract {
    pst.setString(11, frcClientes.getFrcEstado());
    pst.setString(12, frcClientes.getFrcNumero());
    pst.setString(13, frcClientes.getFrcComplemento());
-   pst.setDate(14, null);
+   pst.setDate(14, null);//frc_dataCadastro
    pst.setString(15, frcClientes.getFrcAtivo());
             
    pst.executeUpdate();

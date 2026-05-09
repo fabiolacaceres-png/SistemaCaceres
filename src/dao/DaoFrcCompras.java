@@ -30,7 +30,7 @@ public class DaoFrcCompras extends DaoAbstract {
      PreparedStatement pst = cnt.prepareStatement(sql);
             
      pst.setInt(1, frcCompras.getFrcIdCompras());
-     pst.setDate(2, null); 
+     pst.setDate(2, null);//frc_dataCompra
      pst.setInt(3, frcCompras.getFrcfornecedores());
      pst.setInt(4, frcCompras.getFrcusuarios());
      pst.setString(5, frcCompras.getFrcformaPagamento());

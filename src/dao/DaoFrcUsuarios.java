@@ -33,7 +33,7 @@ public class DaoFrcUsuarios extends DaoAbstract {
     pst.setString(2, frcUsuarios.getFrcNome());
     pst.setString(3, frcUsuarios.getFrcApelido());
     pst.setString(4, frcUsuarios.getFrcCpf());
-    pst.setDate(5, null);                       
+    pst.setDate(5, null);//frc_dataNascimento                       
     pst.setInt(6, frcUsuarios.getFrcNivel());
     pst.setString(7, frcUsuarios.getFrcSenha());
     pst.setString(8, frcUsuarios.getFrcAtivo());

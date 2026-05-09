@@ -31,7 +31,7 @@ public class DaoFrcVendas extends DaoAbstract {
     PreparedStatement pst = cnt.prepareStatement(sql);
             
     pst.setInt(1, frcVendas.getFrcIdVendas());
-    pst.setDate(2, null);
+    pst.setDate(2, null);//frc_dataVenda
     pst.setInt(3, frcVendas.getFrcCliente());
     pst.setInt(4, frcVendas.getFrcUsuario());
     pst.setString(5, frcVendas.getFrcFormaPagamento());
